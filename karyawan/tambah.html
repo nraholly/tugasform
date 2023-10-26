@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Karyawan</title>
+    <style>
+        header{
+            background-color: rgb(0, 53, 102);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+        section{
+            width: 100%;
+            background-color: rgb(250, 240, 202);
+        }
+        footer{
+            background-color: rgb(0, 53, 102);
+            padding: 10px;
+            text-align: center;
+            color: white;
+            
+        }
+        nav{
+            background-color:rgb(255, 195, 0);
+            padding: 10px;
+            color: white;
+        }
+        nav{
+            list-style-type: none;
+            overflow: hidden;
+        }
+        nav li{
+            float: left;
+        }
+        nav li a {
+            display: block;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+        nav li a:hover{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Siti Nuur Najmi Radhiyya RPL 1</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Beranda</a></li>
+            <li><a href="">Karyawan</a></li>
+            <li><a href="">Bagian</a></li>
+            <li><a href="">Penggajian</a></li>
+        </ul>
+    </nav>
+    <section>
+        <form action="">
+            <fieldset>
+                <legend>Tambah Karyawan</legend>
+                <p>
+                    <label for="NIK">NIK :</label>
+                    <input type="text" placeholder="NIK Harus Diisi">                  
+                </p>
+                <p>
+                    <label for="nama">Nama :</label>
+                    <input type="text" placeholder="Nama Harus Diisi">                  
+                </p>
+                <p>
+                    <label for="nama">Tanggal Mulai :</label>
+                    <input type="date">
+                                      
+                </p>
+                <p>
+                    <label for="nama">Gaji Pokok :</label>
+                    <input type="number" placeholder="Gaji Pokok Harus Diisi">                  
+                </p>
+                <p>
+                    <label for="nama">Status Karyawan :</label>
+                    <select name="" id="">
+                        <option value="Tetap"> Tetap</option>
+                        <option value="Kontrak"> Kontrak</option>
+                        <option value="Magang"> Magang</option>                        
+                    </select>                  
+                </p>
+                <p>
+                    <button style="background-color: rgb(135, 187, 162); color :white;">simpan</button>
+                </p>
+            </fieldset>
+        </form>
+        
+    </section>
+    <footer>
+        <p>Powered by Nara <time datetime="2023">2023</time></p>
+    </footer>
+</body>
+</html>
